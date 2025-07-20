@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  color: #333333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+#main-content {
+  width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  height: 150px;
+  border: 3px solid #4ecdc4;
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #1a535c;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+h2 {
+  display: block;
+  color: #4ecdc4;
+  font-size: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+h3 {
+  display: block;
+  color: black;
+  font-size: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ol {
+  margin-left: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+/* Achievements table cell styling */
+.achievements-table th,
+.achievements-table td {
+  padding: 12px 15px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+/* Table striping for achievements table */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.section-block {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: inline-block;
+  width: 200px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #aad8d3;
+  text-align: center;
+  background-color: #e6f7f5;
+}
+
+/* Contact item hover effect */
+.contact-item a:hover {
+  background-color: #1a535c;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-top: 1px solid #687291;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-child(odd) {
+  background-color: #dfe1e7;
+}
+
+.box:nth-child(even) {
+  background-color: #eeeff2;
+}
+
+.box:last-child {
+  background-color: #687291;
+  border: 4px solid black;
+}
+
+/* First letter styling for introduction paragraph */
+p:first-of-type::first-letter {
+  font-size: 1.8em;
+  font-weight: bold;
+}
